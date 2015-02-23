@@ -14,7 +14,7 @@ Sample API Call
 ---------------
 
 ```txt
-http://sunbox.local/water.json?latitude=49.1426930&longitude=9.2108790
+http://water-opendatade.rhcloud.com/water.json?latitude=49.1426930&longitude=9.2108790
 ```
 
 Response:
