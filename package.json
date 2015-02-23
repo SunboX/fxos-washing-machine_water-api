@@ -1,26 +1,26 @@
 {
-	"name": "water-api",
-	"version": "1.0.0",
-	"description": "OpenData Water API",
-	"author": {
-		"name": "André Fiedler",
-		"email": "andre.fiedler@me.com"
-	},
-	"homepage": "http://www.openshift.com/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/openshift/origin-server"
-	},
-	"engines": {
-		"node": ">= 0.10.0",
-		"npm": ">= 1.0.0"
-	},
-	"dependencies": {
-		"mime": ">= 1.3.4",
-		"simplegeoloc": ">= 0.0.1"
-	},
-	"devDependencies": {},
-	"bundleDependencies": [],
-	"private": true,
-	"main": "server.js"
+    "name": "water-api",
+    "version": "1.0.0",
+    "description": "OpenData Water API",
+    "author": {
+        "name": "André Fiedler",
+        "email": "andre.fiedler@me.com"
+    },
+    "homepage": "http://www.openshift.com/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/openshift/origin-server"
+    },
+    "engines": {
+        "node": ">= 0.10.0",
+        "npm": ">= 1.0.0"
+    },
+    "dependencies": {
+        "mime": ">= 1.3.4",
+        "simplegeoloc": ">= 0.0.1"
+    },
+    "devDependencies": {},
+    "bundleDependencies": [],
+    "private": true,
+    "main": "server.js"
 }

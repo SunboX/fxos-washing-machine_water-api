@@ -1,11 +1,11 @@
 {
-	"name": "water-api-converter",
-	"description": "OpenData Water API Converter",
-	"author": "André Fiedler <andre.fiedler@me.com>",
-	"dependencies": {
-		"nominatim": ">= 0.1.0"
-	},
-	"engines": {
-		"node": ">= 0.10.0"
-	}
+    "name": "water-api-converter",
+    "description": "OpenData Water API Converter",
+    "author": "André Fiedler <andre.fiedler@me.com>",
+    "dependencies": {
+        "nominatim": ">= 0.1.0"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    }
 }
