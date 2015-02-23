@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 OpenData Water API
 ==================
 
@@ -38,8 +37,3 @@ Response:
     }
 }
 ```
-=======
-The OpenShift `nodejs` cartridge documentation can be found at:
-
-http://openshift.github.io/documentation/oo_cartridge_guide.html#nodejs
->>>>>>> 5f7d82144c81f1ec96c24b289e3227f5aaad2dd6

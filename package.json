@@ -1,49 +1,26 @@
 {
-<<<<<<< HEAD
 	"name": "water-api",
+	"version": "1.0.0",
 	"description": "OpenData Water API",
-	"author": "André Fiedler <andre.fiedler@me.com>",
+	"author": {
+		"name": "André Fiedler",
+		"email": "andre.fiedler@me.com"
+	},
+	"homepage": "http://www.openshift.com/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/openshift/origin-server"
+	},
+	"engines": {
+		"node": ">= 0.10.0",
+		"npm": ">= 1.0.0"
+	},
 	"dependencies": {
 		"mime": ">= 1.3.4",
 		"simplegeoloc": ">= 0.0.1"
 	},
-	"engines": {
-		"node": ">= 0.10.0"
-	}
+	"devDependencies": {},
+	"bundleDependencies": [],
+	"private": true,
+	"main": "server.js"
 }
-=======
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
-  },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
-  "dependencies": {
-    "express": "~3.4.4"
-  },
-  "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "server.js"
-}
->>>>>>> 5f7d82144c81f1ec96c24b289e3227f5aaad2dd6
