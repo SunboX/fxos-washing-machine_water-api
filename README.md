@@ -21,8 +21,8 @@ Response:
 ```json
 {
     "distance": 0.14553058919585077,
-    "latitude": "49.1427395",
-    "longitude": "9.2128784",
+    "latitude": 49.1427395,
+    "longitude": 9.2128784,
     "water": {
         "natrium": "5-6",
         "kalium": "1-2",

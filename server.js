@@ -95,11 +95,11 @@ var server = http.createServer(function (request, response) {
 		if (!query.latitude && !query.longitude) {
 			var json = '{"msg":"please provide a latitude and longitude parameter"}';
 		} else {
-			var nearest = store.next(query.latitude, query.longitude);
+			var nearest = store.next(parseFloat(query.latitude), parseFloat(query.longitude));
 			json = JSON.stringify({
 				distance: nearest.distance,
-				latitude: nearest.latitude,
-				longitude: nearest.longitude,
+				latitude: parseFloat(nearest.latitude),
+				longitude: parseFloat(nearest.longitude),
 				water: nearest.item
 			});
 		}
