@@ -6,7 +6,7 @@ var fs = require('fs'),
 	os = require('os'),
 	sgl = require('simplegeoloc'),
 	waterData = require('./data/water.json'),
-	port = 80;
+	port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 
 var store = sgl.createStore();
 
