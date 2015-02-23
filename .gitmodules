@@ -1,0 +1,3 @@
+[submodule "data/opendata-heilbronn_trinkwasser"]
+	path = data/opendata-heilbronn_trinkwasser
+	url = https://github.com/opendata-heilbronn/trinkwasser.git

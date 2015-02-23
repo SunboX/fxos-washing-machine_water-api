@@ -1,0 +1,12 @@
+{
+	"name": "water-api",
+	"description": "OpenData Water API",
+	"author": "André Fiedler <andre.fiedler@me.com>",
+	"dependencies": {
+		"mime": ">= 1.3.4",
+		"simplegeoloc": ">= 0.0.1"
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	}
+}
