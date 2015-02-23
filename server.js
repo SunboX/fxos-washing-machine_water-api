@@ -6,7 +6,15 @@ var fs = require('fs'),
 	os = require('os'),
 	sgl = require('simplegeoloc'),
 	waterData = require('./data/water.json'),
-	port = process.env.OPENSHIFT_NODEJS_PORT || 8080;
+	port = process.env.OPENSHIFT_NODEJS_PORT || 8080,
+	ipaddress = process.env.OPENSHIFT_NODEJS_IP;
+
+if (typeof ipaddress === 'undefined') {
+	//  Log errors on OpenShift but continue w/ 127.0.0.1 - this
+	//  allows us to run/test the app locally.
+	console.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
+	ipaddress = '127.0.0.1';
+}
 
 var store = sgl.createStore();
 
@@ -123,7 +131,7 @@ var server = http.createServer(function (request, response) {
 	response.end();
 });
 
-server.listen(port);
+server.listen(port, ipaddress);
 
 console.log('---------------------------------------------');
 console.log('Server listening at http://' + os.hostname().toLowerCase() + ':' + port + '/');
