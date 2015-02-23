@@ -7,7 +7,7 @@ Usage
 -----
 
 ```bash
-$ node server
+$ npm start
 ```
 
 Sample API Call
