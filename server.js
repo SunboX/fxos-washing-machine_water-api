@@ -121,7 +121,8 @@ var server = http.createServer(function (request, response) {
             'Pragma': 'public',
             'Cache-Control': 'public, max-age=0',
             'Expires': date,
-            'Content-Length': Buffer.byteLength(json, encoding)
+            'Content-Length': Buffer.byteLength(json, encoding),
+            'Access-Control-Allow-Origin': '*'
         });
 
         response.write(json, encoding);
